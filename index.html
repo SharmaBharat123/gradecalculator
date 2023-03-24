@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+    <div class="head">
+        <h1>Grade Calculator</h1>
+    </div>
+    
+    <div class="container">
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="p-g-t">
+                <h2>Percentage-<span class="per"></span></h2>
+                 <h2>Grade-<span class="gra"></span></h2>
+                  <h2>Total-<span class="to"></span></h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="c" placeholder="English"/>
+                <input type="number" id="mt" placeholder="Maths"/>
+                <input type="number" id="ph" placeholder="Physics"/>
+                <input type="number" id="ja" placeholder="Chemistry"/>
+                <input type="number" id="csa" placeholder="Computer"/>
+                <button type="button" onclick="show_result()">Show Result</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2></h2>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
